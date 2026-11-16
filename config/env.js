@@ -21,7 +21,7 @@ export const env = {
     uploadLimitMb: parseInt(process.env.UPLOAD_LIMIT_MB || '5', 10),
 
     //Database
-    mongoURI: required("MONGO_URI"),
+    mongoURI: required("MONGODB_URI"),
 
     // Frontend & CORS
     frontendURI: process.env.FRONTEND_URI || 'http://localhost:5173',
